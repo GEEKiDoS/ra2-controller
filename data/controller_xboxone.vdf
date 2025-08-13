@@ -1,0 +1,456 @@
+"controller_mappings"
+{
+	"version"		"3"
+	"revision"		"16"
+	"title"		""
+	"description"		""
+	"creator"		"76561198114162501"
+	"progenitor"		"template://empty.vdf"
+	"url"		"autosave://J:\\Steam\\steamapps\\common\\Steam Controller Configs\\153896773\\config\\480\\controller_xboxone.vdf"
+	"export_type"		"unknown"
+	"controller_type"		"controller_xboxone"
+	"controller_caps"		"1590271"
+	"major_revision"		"0"
+	"minor_revision"		"0"
+	"Timestamp"		"1755086778"
+	"actions"
+	{
+		"ra2_control"
+		{
+			"title"		"Red Alert 2 Control"
+			"legacy_set"		"0"
+			"StickPadGyro"
+			{
+				"Cursor"
+				{
+					"title"		"#CursorControl"
+					"input_mode"		"joystick_move"
+				}
+				"map_scroll"
+				{
+					"title"		"#MapScroll"
+					"input_mode"		"joystick_move"
+				}
+			}
+			"Button"
+			{
+				"btn_a"		"#btn_a"
+				"btn_b"		"#btn_b"
+				"btn_x"		"#btn_x"
+				"btn_y"		"#btn_y"
+				"btn_dpad_up"		"#btn_dpad_up"
+				"btn_dpad_down"		"#btn_dpad_down"
+				"btn_dpad_left"		"#btn_dpad_left"
+				"btn_dpad_right"		"#btn_dpad_right"
+				"btn_lb"		"#btn_lb"
+				"btn_rb"		"#btn_rb"
+				"btn_lt"		"#btn_lt"
+				"btn_rt"		"#btn_rt"
+				"btn_start"		"#btn_start"
+				"btn_select"		"#btn_select"
+				"btn_lstick"		"#btn_lstick"
+				"btn_rstick"		"#btn_rstick"
+			}
+		}
+	}
+	"action_layers"
+	{
+	}
+	"localization"
+	{
+		"english"
+		{
+			"CursorControl"		"Cursor Control"
+			"MapScroll"		"Map Scroll"
+			"btn_a"		"A"
+			"btn_b"		"B"
+			"btn_x"		"X"
+			"btn_y"		"Y"
+			"btn_dpad_up"		"UP"
+			"btn_dpad_down"		"DOWN"
+			"btn_dpad_left"		"LEFT"
+			"btn_dpad_right"		"RIGHT"
+			"btn_lb"		"LEFT BUTTON"
+			"btn_rb"		"RIGHT BUTTON"
+			"btn_lt"		"LEFT TRIGGER"
+			"btn_rt"		"RIGHT TRIGGER"
+			"btn_start"		"START"
+			"btn_select"		"SELECT"
+			"btn_lstick"		"LEFT STICK"
+			"btn_rstick"		"RIGHT STICK"
+		}
+	}
+	"group"
+	{
+		"id"		"1"
+		"mode"		"four_buttons"
+		"name"		""
+		"description"		""
+		"inputs"
+		{
+			"button_a"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action ra2_control btn_a, A, , "
+						}
+					}
+				}
+				"disabled_activators"
+				{
+				}
+			}
+			"button_b"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action ra2_control btn_b, B, , "
+						}
+					}
+				}
+				"disabled_activators"
+				{
+				}
+			}
+			"button_x"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action ra2_control btn_x, X, , "
+						}
+					}
+				}
+				"disabled_activators"
+				{
+				}
+			}
+			"button_y"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action ra2_control btn_y, Y, , "
+						}
+					}
+				}
+				"disabled_activators"
+				{
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"2"
+		"mode"		"trigger"
+		"name"		""
+		"description"		""
+		"inputs"
+		{
+			"edge"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action ra2_control btn_lt, LEFT TRIGGER, , "
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+				"disabled_activators"
+				{
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"3"
+		"mode"		"trigger"
+		"name"		""
+		"description"		""
+		"inputs"
+		{
+			"edge"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action ra2_control btn_rt, RIGHT TRIGGER, , "
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+				"disabled_activators"
+				{
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"0"
+		"mode"		"switches"
+		"name"		""
+		"description"		""
+		"inputs"
+		{
+			"button_escape"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action ra2_control btn_select, SELECT, , "
+						}
+					}
+				}
+				"disabled_activators"
+				{
+				}
+			}
+			"button_menu"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action ra2_control btn_start, START, , "
+						}
+					}
+				}
+				"disabled_activators"
+				{
+				}
+			}
+			"left_bumper"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action ra2_control btn_lb, LEFT BUTTON, , "
+						}
+					}
+				}
+				"disabled_activators"
+				{
+				}
+			}
+			"right_bumper"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action ra2_control btn_rb, RIGHT BUTTON, , "
+						}
+					}
+				}
+				"disabled_activators"
+				{
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"7"
+		"mode"		"dpad"
+		"name"		""
+		"description"		""
+		"inputs"
+		{
+			"dpad_north"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action ra2_control btn_dpad_up, UP, , "
+						}
+					}
+				}
+				"disabled_activators"
+				{
+				}
+			}
+			"dpad_south"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action ra2_control btn_dpad_down, DOWN, , "
+						}
+					}
+				}
+				"disabled_activators"
+				{
+				}
+			}
+			"dpad_east"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action ra2_control btn_dpad_right, RIGHT, , "
+						}
+					}
+				}
+				"disabled_activators"
+				{
+				}
+			}
+			"dpad_west"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action ra2_control btn_dpad_left, LEFT, , "
+						}
+					}
+				}
+				"disabled_activators"
+				{
+				}
+			}
+		}
+		"settings"
+		{
+			"requires_click"		"0"
+			"haptic_intensity_override"		"0"
+		}
+	}
+	"group"
+	{
+		"id"		"8"
+		"mode"		"joystick_move"
+		"name"		""
+		"description"		""
+		"inputs"
+		{
+			"click"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action ra2_control btn_lstick, LEFT STICK, , "
+						}
+					}
+				}
+				"disabled_activators"
+				{
+				}
+			}
+		}
+		"settings"
+		{
+			"virtual_mode"		"1"
+		}
+		"gameactions"
+		{
+			"ra2_control"		"Cursor"
+		}
+	}
+	"group"
+	{
+		"id"		"9"
+		"mode"		"joystick_move"
+		"name"		""
+		"description"		""
+		"inputs"
+		{
+			"click"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action ra2_control btn_rstick, RIGHT STICK, , "
+						}
+					}
+				}
+				"disabled_activators"
+				{
+				}
+			}
+		}
+		"settings"
+		{
+			"virtual_mode"		"1"
+		}
+		"gameactions"
+		{
+			"ra2_control"		"map_scroll"
+		}
+	}
+	"preset"
+	{
+		"id"		"0"
+		"name"		"ra2_control"
+		"group_source_bindings"
+		{
+			"0"		"switch active"
+			"1"		"button_diamond active"
+			"2"		"left_trigger active"
+			"3"		"right_trigger active"
+			"9"		"joystick active"
+			"8"		"right_joystick active"
+			"7"		"dpad active"
+		}
+	}
+	"settings"
+	{
+	}
+}

@@ -1,0 +1,79 @@
+"Action Manifest"
+{
+	"actions"
+	{
+		"ra2_control"
+		{
+			"title"		"Red Alert 2 Control"
+			"legacy_set"		"0"
+			"StickPadGyro"
+			{
+				"cursor"
+				{
+					"title"		"#CursorControl"
+					"input_mode"	"joystick_move"
+					
+				}
+				"map_scroll"
+				{
+					"title"		"#MapScroll"
+					"input_mode"		"joystick_move"
+				}
+			}
+			"Button"
+			{
+				"btn_a"		"#btn_a"
+				"btn_b"		"#btn_b"
+				"btn_x"		"#btn_x"
+				"btn_y"		"#btn_y"
+
+				"btn_dpad_up"		"#btn_dpad_up"
+				"btn_dpad_down"		"#btn_dpad_down"
+				"btn_dpad_left"		"#btn_dpad_left"
+				"btn_dpad_right"	"#btn_dpad_right"
+
+				"btn_lb"		"#btn_lb"
+				"btn_rb"		"#btn_rb"
+				
+				"btn_lt"		"#btn_lt"
+				"btn_rt"		"#btn_rt"
+
+				"btn_start"		"#btn_start"
+				"btn_select"	"#btn_select"
+
+				"btn_lstick"	"#btn_lstick"
+				"btn_rstick"	"#btn_rstick"
+			}
+		}
+	}
+	"localization"
+	{
+		"english"
+		{
+			"CursorControl" 	"Cursor Control"
+			"MapScroll" 		"Map Scroll"
+
+			"btn_a"		"A"
+			"btn_b"		"B"
+			"btn_x"		"X"
+			"btn_y"		"Y"
+
+			"btn_dpad_up"		"UP"
+			"btn_dpad_down"		"DOWN"
+			"btn_dpad_left"		"LEFT"
+			"btn_dpad_right"	"RIGHT"
+
+			"btn_lb"		"LEFT BUTTON"
+			"btn_rb"		"RIGHT BUTTON"
+			
+			"btn_lt"		"LEFT TRIGGER"
+			"btn_rt"		"RIGHT TRIGGER"
+
+			"btn_start"		"START"
+			"btn_select"	"SELECT"
+
+			"btn_lstick"	"LEFT STICK"
+			"btn_rstick"	"RIGHT STICK"
+		}
+	}
+}
